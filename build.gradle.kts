@@ -1,7 +1,7 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.9.25"
-    id("org.jetbrains.kotlin.plugin.allopen") version "1.9.25"
-    id("com.google.devtools.ksp") version "1.9.25-1.0.20"
+    id("org.jetbrains.kotlin.jvm") version "2.4.21"
+    id("org.jetbrains.kotlin.plugin.allopen") version "2.4.21"
+    id("com.google.devtools.ksp") version "2.3.10"
     id("io.micronaut.application") version "4.6.2"
     id("com.gradleup.shadow") version "8.3.9"
     id("io.micronaut.aot") version "4.6.2"
@@ -49,7 +49,7 @@ application {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(17))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
