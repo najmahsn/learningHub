@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: learning_hub
+      POSTGRES_PASSWORD: learning_hub
+      POSTGRES_DB: learning_hub
+    ports:
+      - "5432:5432"
